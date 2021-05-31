@@ -1,0 +1,183 @@
+<html>
+<head>
+	<title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="aset/css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  
+  <style>
+
+	body {
+	  background-image: url("img/mrbl.jpg");
+	}
+	
+	input[type=text], [type=password] {
+				  width: 150px;
+				  padding: 6px;
+				  border: 1px solid #ccc;
+				  border-radius: 4px;
+				  resize: vertical;
+				}
+			label {
+					  padding: 12px 12px 12px 0;
+					  display: inline-block;
+					}
+			div.edh {
+					float: left;
+					 width: 75%;
+					 margin-top: 6px;
+					}
+			input[type=submit]{
+							background-color:SkyBlue ;
+							  border: solid;
+							  color: black;
+							  padding: 16px 32px;
+							  text-decoration: none;
+							  margin: 4px 2px;
+							  cursor: pointer;
+							}
+					div.col-25 {
+							  float: left;
+							  width: 25%;
+							  margin-top: 6px;
+					}
+
+					div.col-75 {
+							  float: left;
+							  width: 75%;
+							  margin-top: 6px;
+								}
+	
+/* Clear floats after the columns */
+					div.row:after {
+							  content: "";
+							  display: table;
+							  clear: both;
+								}
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="kelompzz.html">
+    WEDDPLANN
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="WeddPlan.html">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="desain.html" target="blank">Desain</a>
+      </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+     
+    </form>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<br>
+	<H2> Login </H2>
+
+	<div class="kotak">
+		<img src="img/logo.jpg" height="300" width="350">
+<br>
+<br>
+		<form method="post" action="proses.php">
+<br>		
+			<div class="row">
+			<label for="tfield">Full Name</label>
+			<input type="text" id="tfield" name="tfield" placeholder="Nama Lengkap" required>
+			</div>
+<br>
+<br>
+			<div class="row">
+			<label for="tfield">Phone Number </label>
+			<input type="text" id="tfield" name="tfield" placeholder="phnnmbr" required>			
+			</div>
+<br>
+<br>
+			<div class="row">
+			<label for="tfield">Email</label>
+			<input type="password" id="tpassw" name="tpassw" placeholder="email">
+			</div>
+<br>
+<br>
+            <div class="row">
+			<label for="tfield">Password</label>
+			<input type="password" id="tpassw" name="tpassw" placeholder="password">
+			</div>
+			<br>
+			<br>
+			<div class="container">
+			<div class="center">
+			<input align="center" type="submit" name="tsubmit" value="Login">
+			</div>
+			</div>
+<br>
+	</div>
+		</form>
+
+<br>
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-Setencecase">Address</h5>
+        <p>Ruko Bara Plaza 
+		Gedung utama barat nomor 114, Kecamatan Bogor Barat 
+		Kota Bogor</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h6 class="text-sentencecase">
+		Our Contact : 
+		032789087990
+		<br>
+		Email : WeddPlann@ByMghfra14.com</h6>
+        <ul class="list-unstyled">
+          <li>
+          <li>
+            <a href="desain.html">Desain</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+		</div>
+		<div class="col-md-3 mb-md-0 mb-3">
+		<img src="img/logo.jpg" style="width: 250px; height: 150px;">
+		<br>
+      </div>
+	  <div class="col-md-3 mb-md-0 mb-3">
+		<br>
+ 
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 text-center">
+        <p>
+          <b>WeedPlann@ByMghfra14.com</b>
+        </p>
+      </div>
+</footer>
+
+<script src="aset/jquery/jquery.min.js"></script>
+<script src="aset/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
